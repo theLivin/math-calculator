@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+
+    <!-- Bootstrap Sylesheet -->
+    <link rel="stylesheet" href="../bootstrap-4.0.0/css/bootstrap.min.css">
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mx-auto mt-5">
+          <!-- Output -->
+          <div class="card mb-3">
+            <div class="card-body">
+              <div class="text-left"><span class="text-muted">ans </span><span id="output"></span></div>
+              <div class="text-right" id="input">0</div>
+            </div>
+          </div>
+          <!-- End Output -->
+
+          <!-- Input -->
+          <div class="card no-border">
+            <div class="card-body">
+              <table class="table">
+                <tbody>
+                <tr class="row borderless">
+                  <td class="col-sm-3"><button class="btn btn-outline-dark btn-lg btn-block">+</button></td>
+                  <td class="col-sm-3"><button class="btn btn-outline-dark btn-lg btn-block">-</button></td>
+                  <td class="col-sm-3"><button class="btn btn-outline-dark btn-lg btn-block">*</button></td>
+                  <td class="col-sm-3"><button class="btn btn-outline-dark btn-lg btn-block">/</button></td>
+                </tr>
+
+                <tr class="row borderless">
+                  <td class="col-sm-3"><button class="btn btn-outline-dark btn-lg btn-block">1</button></td>
+                  <td class="col-sm-3"><button class="btn btn-outline-dark btn-lg btn-block">2</button></td>
+                  <td class="col-sm-3"><button class="btn btn-outline-dark btn-lg btn-block">3</button></td>
+                  <td class="col-sm-3"><button class="btn btn-outline-dark btn-lg btn-block">%</button></td>
+                </tr>
+
+                <tr class="row borderless">
+                  <td class="col-sm-3"><button class="btn btn-outline-dark btn-lg btn-block">4</button></td>
+                  <td class="col-sm-3"><button class="btn btn-outline-dark btn-lg btn-block">5</button></td>
+                  <td class="col-sm-3"><button class="btn btn-outline-dark btn-lg btn-block">6</button></td>
+                </tr>
+
+                <tr class="row borderless">
+                  <td class="col-sm-3"><button class="btn btn-outline-dark btn-lg btn-block">7</button></td>
+                  <td class="col-sm-3"><button class="btn btn-outline-dark btn-lg btn-block">8</button></td>
+                  <td class="col-sm-3"><button class="btn btn-outline-dark btn-lg btn-block">9</button></td>
+                </tr>
+
+                <tr class="row borderless">
+                  <td class="col-sm-3"><button class="btn btn-outline-dark btn-lg btn-block">0</button></td>
+                  <td class="col-sm-3"><button class="btn btn-outline-dark btn-lg btn-block">.</button></td>
+                  <td class="col-sm-3">
+                    <button class="btn btn-outline-danger btn-lg btn-block" id="clear">c</button>
+                  </td>
+                  <td class="col-sm-3 tall">
+                    <button class="btn btn-outline-success btn-lg btn-block" id="equalTo">=</button>
+                  </td>
+                </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <!-- End Input -->
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js" charset="utf-8"></script>
+  </body>
+</html>

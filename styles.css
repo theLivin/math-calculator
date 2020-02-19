@@ -1,0 +1,31 @@
+body {
+  font-family: "Menlo",cursive;
+}
+
+body, .card {
+  background-color: #eee;
+}
+
+.borderless td{
+  border:none;
+}
+
+.no-border{
+  border: none;
+}
+
+.tall button {
+  height: 199px;
+  position: relative;
+  bottom: 150px;
+}
+
+
+#input {
+  font-size: 2rem;
+}
+
+#output {
+  font-size: 2rem;
+  padding: 20px;
+}
